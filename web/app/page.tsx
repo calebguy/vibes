@@ -21,7 +21,7 @@ export default function Home() {
   }
   const [view, setView] = useState<ViewState>(homeViewState);
   return (
-    <main className="flex min-h-screen flex-col items-center w-full">
+    <main className="flex h-dvh flex-col items-center w-full">
       <div className="absolute w-full text-black z-10 text-center p-2 text-xl font-bold">
         vibes
       </div>
