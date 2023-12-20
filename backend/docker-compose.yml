@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  vibesdb:
+    image: postgres:13-alpine
+    container_name: vibesdb
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: vibes123
+      POSTGRES_DB: vibes
+      PGDATA: /var/lib/postgresql/data/vibesdb
+    volumes:
+      - pgdata-vibes:/var/lib/postgresql/data/vibesdb
+volumes:
+  pgdata-vibes:
