@@ -1,0 +1,26 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	},
+	"files": {
+		"ignore": [
+			"node_modules",
+			"dist",
+			".next",
+			".eslintrc.json",
+			".gitignore",
+			"package.json",
+			"package-lock.json",
+			"tsconfig.json",
+			"README.md",
+			"biome.config.json"
+		]
+	}
+}
