@@ -23,3 +23,11 @@ body {
 .mapboxgl-ctrl-attrib-inner {
   display: none;
 }
+
+.mapboxgl-canvas:hover {
+  cursor: grab;
+}
+
+.mapboxgl-canvas:active {
+  cursor: grabbing;
+}
